@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Workshop on Theory of Neuromorphic Computing">
+  <meta name="keywords" content="neuromorphic, computing, meeting, conference, liverpool, computer science, complexity">
+  <title>Workshop on Theory of Neuromorphic Computing</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      color: #3d4144;
+   font-family: system-ui, sans-serif;
+      line-height: 1.5;
+    }
+
+    header {
+      background-image: url('neuro-liverpool.webp');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 110px;
+      text-align: center;
+      text-shadow:   2px 0 black,
+        -2px 0 black,
+        0 2px black,
+        0 -2px black,
+        1.5px 1.5px black,
+        -1.5px -1.5px black,
+        1.5px -1.5px black,
+        -1.5px 1.5px black,
+        1px 2px black,
+        -1px 2px black,
+        1px -2px black,
+        -1px -2px black,
+        2px 1px black,
+        -2px 1px black,
+        2px -1px black,
+        -2px -1px black;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 3em;
+    }
+
+    h2.subheader {
+      margin: 0;
+      font-weight: normal;
+      font-size: 2em;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .supported-by {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .supported-by img {
+      max-width: 230px;
+      max-height: 120px;
+      display: block;
+    }
+
+    .speakers,
+    .organized-by {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .speaker,
+    .organized-by div {
+      flex: 0 1 calc(50% - 30px);
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .speaker img,
+    .organized-by img {
+      width: 180px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .speaker p,
+    .organized-by p {
+      margin: 10px 0 0;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 60px 20px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h2.subheader {
+        font-size: 1.5em;
+      }
+
+      .speakers,
+      .organized-by,
+      .supported-by {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .speaker,
+      .organized-by div {
+        flex: 0 1 100%;
+        margin: 10px 0;
+      }
+
+      .speaker img,
+      .organized-by img {
+        width: 150px;
+        height: 185px;
+      }
+
+      .supported-by img {
+        max-width: 150px;
+      }
+    }
+
+    .btn {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #fff;
+  background: #2563eb;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.1s ease, box-shadow 0.1s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  border-radius: 999px;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.btn:focus-visible {
+  outline: 2px solid #93c5fd;
+  outline-offset: 2px;
+}
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1>Workshop on Theory of Neuromorphic Computing</h1>
+    <h2 class="subheader">9<sup>th</sup> June 2026</h2>
+    <h2 class="subheader">University of Liverpool</h2>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>
+        Neuromorphic computing is a computing paradigm inspired by biological neural systems. It is based on spiking,
+        event-driven architectures in which memory and computation are closely integrated. Neuromorphic chips have
+        already shown several promising advantages over conventional von Neumann architectures, particularly in terms of
+        energy efficiency.</p>
+        <p>
+        This workshop will explore the theoretical foundations of neuromorphic computing, with a focus on algorithms and
+        computational complexity. Although the hardware has developed rapidly, the theory has not kept pace. Our aim is
+        to create a forum for discussion on rigorous models of neuromorphic systems, allowing researchers to study their
+        computational power and compare them with classical models of computation. These models must capture not only
+        time and space, but also energy-related resources such as spikes and synaptic operations.
+      </p>
+
+
+
+      <h3> Venue</h3>
+
+      <p>All talks will be held in the <b>Ashton Lecture Theatre</b> which is on the First floor of the <a class="simple"
+          href="https://maps.app.goo.gl/DHdJ2jvGVWyye2dJ6" target="_blank">Ashton Building, The University of Liverpool,
+          Brownlow Street, Liverpool, L3 3GJ</a> </p>
+      <p>
+        The venue is a 15 minute walk from Liverpool Lime street (main train station).
+      </p>
+      <h3>Catering</h3>
+
+      <p>
+        There are tea/coffee and lunch is provided to registered participants.
+      </p>
+      <p>
+        There will be a conference dinner on the evening Time/Location TBC. All participants are welcome to attend,
+        however non-speaking participants will have to cover the cost of their own meal.
+      </p>
+
+      <h3>Funding for Students</h3>
+
+      <!-- <p>We have some limited funding for students. If you are a UK based PhD student with little funding and wish to attend then please email the organisers outlining your funding situation and we may be able to help, however this is on a first-come first-served basis. -->
+
+      <p>We urge all students to keep receipts for expenses as we may be able to refund some expenses after the
+        conference. </p>
+
+    </section>
+    <section>
+      <h2>Registration</h2>
+      <p>
+        Attendance at the Workshop on Theory of Neuromorphic Computing is free of charge. However, registration is
+        required (deadline <b>3rd June 2026</b>) to help us with logistics, and to ensure adequate arrangements for the
+        coffee/tea breaks.
+      </p>
+
+      <p class="text-center"><a href="https://forms.office.com/e/cWSjB6z2WB" class="btn" target="_blank" rel="noopener noreferrer">Click here for Registration Form</a></p>
+
+    </section>
+
+    <section>
+      <h2>Speakers</h2>
+      <div class="speakers">
+
+
+
+        <div class="speaker">
+          <a href="https://www.sandia.gov/ccr/staff/james-bradley-aimone/">
+            <img src="JamesBAimone.webp" alt="James B. Aimone (Sandia National Laboratories)">
+          </a>
+          <p>James B. Aimone (Sandia National Laboratories)<br> <it>Online Talk</it></p>
+        </div>
+
+
+        <div class="speaker">
+          <a href="https://www.socsci.ru.nl/johank/">
+            <img src="JohanKwisthout.webp" alt="Johan Kwisthout (Radboud University Nijmegen)">
+          </a>
+          <p>Johan Kwisthout (Radboud University Nijmegen)</p>
+        </div>
+
+
+
+        <div class="speaker">
+          <a href="https://profiles.sussex.ac.uk/p589762-johanna-senk">
+            <img src="JohannaSenk.webp" alt="Johanna Senk (Sussex)">
+          </a>
+          <p>Johanna Senk (Sussex)</p>
+        </div>
+
+
+
+        <div class="speaker">
+          <a href="https://sheffield.ac.uk/cs/people/academic/eleni-vasilaki">
+            <img src="EleniVasilaki.webp" alt="Eleni Vasilaki (Sheffield)">
+          </a>
+          <p>Eleni Vasilaki (Sheffield)</p>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+    <section>
+      <h2>Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td>10:00 - 10:45</td>
+            <td>Coffee</td>
+          </tr>
+          <tr>
+            <td>10:45 - 11:00</td>
+            <td>Welcome Address</td>
+          </tr>
+          <tr>
+            <td>11:00 - 12:00</td>
+            <td> Johan Kwisthout - <i>  Structural complexity theory for neuromorphic computing</i>
+          </tr>
+          <tr>
+            <td>12:00 - 14:00</td>
+            <td>Lunch - Bertie & Bella's</td>
+          </tr>
+          <tr>
+            <td>14:00 - 15:00</td>
+            <td> Johanna Senk -<i> Title TBC</i>
+          </tr>
+
+          <tr>
+            <td>15:00 - 15:30</td>
+            <td>James B. Aimone (online) -<i> Title TBC</i>
+          </tr>
+          <tr>
+            <td>15:30 - 16:00</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td>16:00 - 17:00</td>
+            <td>Eleni Vasilaki -<i>Title TBC</i></td>
+          </tr>
+          <tr>
+            <td>17:00 - 17:30</td>
+            <td>Discussion and Open Problems</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Dinner</td>
+          </tr>
+
+
+
+        </tbody>
+      </table>
+    </section>
+
+
+
+
+
+    <section>
+      <h2>Talk Abstracts</h2>
+      <h3>Johan Kwisthout - <i>  Structural complexity theory for neuromorphic computing</i></h3>
+ <p>Neuromorphic computing is a new computational paradigm inspired by the energy-lean computations in the brain. In essence, most neuromorphic architectures adopt a spiking neural network model, either simulated in digital hardware (e.g., Intel Loihi or the Manchester Spinnaker model) or in analog circuits (e.g., the Heidelberg BrainScales model). While the obvious applications for these models are event-driven classification tasks on machine-learned circuits (such as anomaly detection), various researchers have also explored non-machine learning tasks, such as finding shortest paths or other graph problems. The temporal, event-driven nature of the spiking model nicely captures the canonical aspects of such tasks, and in some cases, can solve such problems either faster, with way less energy, or both. In this talk I present the basis for a structural complexity theory for spiking-based neuromorphic computing, where energy is a resource on par with time and space. We will look at several models of computation of increasing power and relate them to familiar machine models such as finite state automata, Turing machines, and boolean circuits. </p>
+
+
+
+      <!--
+      <h3>Candida Bowtell -<i> Decomposing Latin squares into transversals</i></h3>
+      <p>
+        A Latin square of order $n$ is an $n \times n$ grid filled with $n$ symbols such that each symbol appears exactly once in each row and column. A transversal in a Latin square of order $n$ is a collection of $n$ cells such that each row, column and symbol appears exactly once in the collection.
+</p>
+<p>
+  Latin squares were introduced by Euler in the 1700s and he was interested in the question of when a Latin square decomposes fully into transversals. In this talk we'll discuss some of the history of this question, including some recent joint work with Richard Montgomery.
+      </p>
+  -->
+
+
+    </section>
+
+    <section>
+      <h2>Organisers</h2>
+      <div class="organized-by">
+
+        <div>
+          <a href="https://www.davidpurser.net/">
+            <img src="David.webp" alt="David Purser">
+          </a>
+          <p>David Purser</p>
+        </div>
+
+
+        <div>
+          <a href="https://j-sylvester.github.io/">
+            <img src="Muttley+Me1.webp" alt="John Sylvester">
+          </a>
+          <p>John Sylvester</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <h2>Supported by</h2>
+      <div class="supported-by">
+
+        <a href="https://www.liverpool.ac.uk/computer-science/"><img src="liverpool.webp"
+            alt="University of Liverpool"></a>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
